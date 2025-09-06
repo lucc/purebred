@@ -1,5 +1,5 @@
 let
-  haskellCompilerVersion = "ghc924";
+  haskellCompilerVersion = "ghc984";
   haskellPackagesOverlay = self: super: with super.haskell.lib; {
     haskellPackages = super.haskell.packages.${haskellCompilerVersion}.override {
       overrides = hself: hsuper: {
